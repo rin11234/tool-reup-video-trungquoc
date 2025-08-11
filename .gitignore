@@ -1,0 +1,54 @@
+# Ignore Python cache and environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+venv310/
+
+# Ignore system files
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore data, output, and log files
+*.mp4
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.avi
+*.mov
+*.mkv
+*.flv
+*.webm
+*.wav
+*.spec
+*.log
+*.tmp
+*.bak
+*.swp
+*.srt
+
+# Ignore folders with generated or downloaded content
+downloads/
+edit/
+music/
+videos/
+images/
+fonts/
+
+# Ignore config and secret files
+client_secret.json
+openai_api_key.txt
+fb_upload_config.txt
+schedule.txt
+processed_log.txt
+read.txt
+
+# Ignore other user data
+*.sqlite3
+*.db
+
+# Allow example config files
+!client_secret.example.json
